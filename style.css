@@ -1,0 +1,115 @@
+ @import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Noto+Sans:ital@1&family=PT+Serif:ital,wght@1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: pink;
+}
+#hii{
+    text-shadow: 2px 2px red;
+}
+
+
+nav ul{
+    list-style-type: none;
+
+}
+nav{
+    background-color: black;
+    color:white;
+    height: 65px;
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 12px;
+    font-family: 'Roboto',sans-serif;
+    text-shadow: 2px 2px red;
+    box-shadow: 3px 3px red;
+}
+.gameContainer{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.Container{
+    display: grid;
+    grid-template-columns: repeat(3,10vw);
+    grid-template-rows: repeat(3,10vw);
+    font-family: 'Roboto',sans-serif;
+    position: relative;
+
+}
+.box{
+    border: 2px solid black;
+    font-size: 8vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.box:hover{
+    background-color: rgb(156, 62, 78);
+}
+.info{
+    font-size: 30px;
+    font-weight: bold;
+}
+.gameInfo{
+    padding: 0 34px;
+
+}
+.imgbox img{
+    width:0;
+    transition: width 1s ease-in-out;
+}
+.br-0{
+    border-right: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+.bt-0{
+    border-top: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
+#reset{
+    margin: 10px 23px;
+    padding: 6px 14px;
+    background: rgb(226, 104, 104);
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Roboto',sans-serif;
+    font-size: 15px;
+    font-weight:border;
+    box-shadow: 2px 2px 2px 2px black;
+}
+.line{
+    height: 5px;
+    width:0%;
+    position:absolute;
+    background-color:black;
+    transition: width 1s ease-in-out;
+    
+}
+    element.style{
+    transform: translate(5vw,5vw) rotate(0deg)
+     translate(5vw,15vw) rotate(0deg)
+     translate(5vw,25vw) rotate(0deg)
+     translate(-5vw,15vw) rotate(90deg)
+     translate(5vw,15vw) rotate(90deg)
+     translate(15vw,15vw) rotate(90deg)
+     translate(5vw,15vw) rotate(45deg)
+     translate(5vw,15vw) rotate(135deg);
+
+}
+.dark{
+    text-shadow: 2px 2px rgb(13, 1, 1);
+}
